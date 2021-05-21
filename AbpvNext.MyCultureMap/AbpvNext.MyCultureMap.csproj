@@ -8,6 +8,8 @@
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <PackageProjectUrl>https://github.com/tanyongzheng/Abp.MyCultureMap</PackageProjectUrl>
     <Description>Abp vnext多语言替换</Description>
+    <PackageId>AbpvNext.MyCultureMap</PackageId>
+    <Product>AbpvNext.MyCultureMap</Product>
   </PropertyGroup>
 
 	<ItemGroup>

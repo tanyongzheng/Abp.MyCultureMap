@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 
-namespace Abp.MyCultureMap
+namespace AbpvNext.MyCultureMap
 {
     internal class MyRequestCultureProvider : RequestCultureProvider
     {

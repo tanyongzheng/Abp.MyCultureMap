@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Abp.MyCultureMap
+namespace AbpvNext.MyCultureMap
 {
     /// <summary>
     /// Abp语言映射信息

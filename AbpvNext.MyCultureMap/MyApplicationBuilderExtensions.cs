@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Builder;
 
-namespace Abp.MyCultureMap
+namespace AbpvNext.MyCultureMap
 {
     public static class MyApplicationBuilderExtensions
     {

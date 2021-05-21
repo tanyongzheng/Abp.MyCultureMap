@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using JetBrains.Annotations;
 
-namespace Abp.MyCultureMap
+namespace AbpvNext.MyCultureMap
 {
     public class MyCultureMapOptions
     {
