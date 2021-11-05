@@ -3,11 +3,6 @@
   <!-- Abp相关配置 -->
   <Import Project="abp.props"></Import>
 
-  <PropertyGroup>
-	  <!--<AbpvNextVersion>$(AbpVersion)</AbpvNextVersion>-->
-	  <AbpvNextVersion>4.4.2</AbpvNextVersion>
-  </PropertyGroup>
-
   <!-- 编译设置 -->
   <PropertyGroup>
     <!-- 使用c#最新版本 -->
@@ -20,7 +15,7 @@
 
   <!-- Package 相关设置 -->
   <PropertyGroup>
-	  <Version>4.4.2</Version>
+	  <Version>4.4.1</Version>
 	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 	  <Authors>tanyongzheng</Authors>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
