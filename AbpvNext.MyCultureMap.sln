@@ -5,6 +5,33 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpvNext.MyCultureMap", "AbpvNext.MyCultureMap\AbpvNext.MyCultureMap.csproj", "{68DD9A5B-A026-447D-85AC-389D3230349E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solution Items", "{BBE08ACC-1ADA-4AFF-9E77-D1710AB30666}"
+	ProjectSection(SolutionItems) = preProject
+		abp.props = abp.props
+		common.props = common.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F34256A4-AD16-45DD-86A9-7F16BC6C95B9}"
+	ProjectSection(SolutionItems) = preProject
+		build\build-all-release.ps1 = build\build-all-release.ps1
+		build\build-all.ps1 = build\build-all.ps1
+		build\common.ps1 = build\common.ps1
+		build\test-all.ps1 = build\test-all.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{04F5BD6B-CF4F-4A15-A81B-4D1909A971CC}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-test.yml = .github\workflows\build-and-test.yml
+		.github\workflows\publish-nuget.yml = .github\workflows\publish-nuget.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nupkg", "nupkg", "{E5B91452-4BBB-4A87-A70A-68CE1A183978}"
+	ProjectSection(SolutionItems) = preProject
+		nupkg\common_nupkg.ps1 = nupkg\common_nupkg.ps1
+		nupkg\pack.ps1 = nupkg\pack.ps1
+		nupkg\push_packages.ps1 = nupkg\push_packages.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +45,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F34256A4-AD16-45DD-86A9-7F16BC6C95B9} = {BBE08ACC-1ADA-4AFF-9E77-D1710AB30666}
+		{04F5BD6B-CF4F-4A15-A81B-4D1909A971CC} = {BBE08ACC-1ADA-4AFF-9E77-D1710AB30666}
+		{E5B91452-4BBB-4A87-A70A-68CE1A183978} = {BBE08ACC-1ADA-4AFF-9E77-D1710AB30666}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DF96215-642C-44AF-8B08-01BA3CE5CB82}

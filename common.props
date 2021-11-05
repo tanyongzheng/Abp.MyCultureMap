@@ -1,0 +1,33 @@
+<Project>
+
+  <!-- Abp相关配置 -->
+  <Import Project="abp.props"></Import>
+
+  <PropertyGroup>
+	  <!--<AbpvNextVersion>$(AbpVersion)</AbpvNextVersion>-->
+	  <AbpvNextVersion>4.4.2</AbpvNextVersion>
+  </PropertyGroup>
+
+  <!-- 编译设置 -->
+  <PropertyGroup>
+    <!-- 使用c#最新版本 -->
+    <LangVersion>latest</LangVersion>
+    <!-- 忽略哪些编译警告 -->
+    <NoWarn>$(NoWarn);CS1591;NU1603</NoWarn>
+    <!-- 生成xml注释文件 -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- Package 相关设置 -->
+  <PropertyGroup>
+	  <Version>4.4.2</Version>
+	  <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	  <Authors>tanyongzheng</Authors>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <PackageProjectUrl>https://github.com/tanyongzheng/Abp.MyCultureMap</PackageProjectUrl>
+	  <Description>Abp vnext多语言替换</Description>
+	  <PackageId>AbpvNext.MyCultureMap</PackageId>
+	  <Product>AbpvNext.MyCultureMap</Product>
+  </PropertyGroup>
+
+</Project>
