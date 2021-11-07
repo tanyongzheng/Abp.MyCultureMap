@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Solution Items", "0.Solut
 	ProjectSection(SolutionItems) = preProject
 		abp.props = abp.props
 		common.props = common.props
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F34256A4-AD16-45DD-86A9-7F16BC6C95B9}"
