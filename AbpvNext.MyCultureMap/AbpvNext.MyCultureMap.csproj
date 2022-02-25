@@ -7,6 +7,6 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Volo.Abp.AspNetCore" Version="5.0.1" />
+		<PackageReference Include="Volo.Abp.AspNetCore" Version="$(AbpVersion)" />
 	</ItemGroup>
 </Project>
